@@ -1,0 +1,83 @@
+/* Employee Votes Styles */
+  .employee-votes {
+    margin-left: 250px; /* Adjust for sidebar */
+    padding-top: 60px;
+  }
+  
+  .nominee {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .nominee img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .nominee .text {
+    flex-grow: 1;
+  }
+  
+  .nominee .text .name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nominee .votes {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nominee .percent {
+    margin-left: 10px;
+    font-size: 15px;
+    color: #979797;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 1024px) {
+    .employee-votes {
+      margin-left: 0;
+      padding-left: 10px;
+    }
+  
+    .employee-votes .nominee {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nominee .votes {
+      flex-direction: row;
+      align-items: baseline;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .side-bar {
+      width: 100%;
+    }
+  
+    .employee-votes {
+      padding: 10px;
+    }
+  
+    .employee-votes .nominee img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .side-bar {
+      display: none; /* Hide sidebar on very small screens */
+    }
+  
+    .employee-votes {
+      padding: 10px;
+    }
+  }
+  

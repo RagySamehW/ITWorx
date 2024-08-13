@@ -1,0 +1,41 @@
+main{
+  margin: 50px 200px;
+}
+.profilePage-container{
+  display: flex;
+  margin: 50px 200px;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.profile-info{
+  margin-left: 50px;
+  margin-top: 0;
+  padding: 0;
+}
+.profile-info .name{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.profile-info .role{
+  color: grey;
+  font-size: medium;
+}
+.card-img{
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+}
+.details-container h3{
+  font-size: 25px;
+}
+.details-container p{
+  font-size: 20px;
+}
+.details-container ol{
+  font-size: 20px;
+  padding-left: 20px;
+}
